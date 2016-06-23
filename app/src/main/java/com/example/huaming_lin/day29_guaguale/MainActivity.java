@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         });
         ggl = (GuaGuaLe) findViewById(R.id.ggl);
 
+        System.out.print("dfd");
 
     }
 }
