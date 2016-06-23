@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.huaming_lin.day29_guaguale.MainActivity">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Button"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000"
+            android:gravity="center"
+            android:text="你中奖啦！爱疯16s一台！"
+            android:textColor="@color/colorAccent"
+            android:textSize="50sp"/>
+
+        <com.example.huaming_lin.day29_guaguale.GuaGuaLe
+            android:layout_width="match_parent"
+            android:id="@+id/ggl"
+            android:layout_height="match_parent"/>
+
+    </FrameLayout>
+
+</LinearLayout>
